@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ASU Tutorials</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="description" content="Description">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+</head>
+<body>
+    <div id="app"></div>
+    <script>
+		window.$docsify = {
+		  name: 'ASU Tutorials',
+		  repo: 'https://github.com/AuroraStudioDev/tutorial',
+		  coverpage: true,
+		  loadSidebar: true,
+		  loadNavbar: true,
+		  notFoundPage: true,
+		  notFoundPage: '404.md',
+		  subMaxLevel: 3,
+		  alias: {'/.*/_sidebar.md': '/_sidebar.md'},
+		  search: 'auto',
+		  search: ['/'],
+		  search: { placeholder: '搜索', noData: '找不到教程'}
+		}
+    </script>
+  <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+    <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
+    <script src="//unpkg.com/prismjs/components/prism-python.js"></script>
+    <script src="//unpkg.com/prismjs/components/prism-sql.js"></script>
+    <script src="//unpkg.com/docsify-copy-code"></script>
+</body>
+</html>
